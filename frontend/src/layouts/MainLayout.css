@@ -1,0 +1,64 @@
+/* src/layouts/MainLayout.css */
+
+.layout-root {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background-color: #34495e;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .sidebar li:hover {
+    background-color: #1abc9c;
+  }
+  
+  .logout-btn {
+    margin-top: 2rem;
+    background: #e74c3c;
+    border: none;
+    padding: 0.6rem;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .logout-btn:hover {
+    background: #c0392b;
+  }
+  
+  .main-content {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    overflow-y: auto;
+  }
+  

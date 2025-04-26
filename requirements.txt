@@ -1,0 +1,24 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0        # 带自动 reload & 生产用 gunicorn worker
+pydantic==2.7.0
+typing-extensions>=4.11,<5       
+
+SQLAlchemy==2.0.23
+pymysql==1.1.0
+
+openai>=1.70,<2                  # 1.73.0 是 2025‑04‑12 最新稳定版
+httpx>=0.28,<0.30                
+requests==2.31.0                 
+
+python-dotenv==1.0.1
+loguru==0.7.2
+
+transformers==4.30.2
+text2vec==1.2.8
+faiss-cpu==1.7.4
+torch>=2.0.0
+numpy<2
+openpyxl=3.1.5
+python-jose[cryptography]>=3.3.0,<4.0.0
+passlib[bcrypt]>=1.7.4,<2.0.0
+python-multipart>=0.0.5,<1.0.0
